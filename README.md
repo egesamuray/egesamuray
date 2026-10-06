@@ -33,6 +33,14 @@ Prof. Felix J. Herrmann.
 
 ## Engineering
 
+### Selected Open-Source Contributions
+
+- **ROCm / Composable Kernel** — Fixed unsafe buffer access patterns in
+  low-level HIP/C++ utility code while preserving generated AMDGPU device code.
+  Verified with ROCm 7.2 / AMD Clang 22 across gfx90a, gfx1030, and gfx1100,
+  including MI210 runtime validation.
+  [PR #13146](https://github.com/ROCm/rocm-libraries/pull/13146)
+
 ### [JAX / ROCm Systems Lab](https://github.com/egesamuray/jax-rocm-systems-lab)
 
 Reproducible experiments in JAX and accelerator-aware ML systems, with explicit
