@@ -1,21 +1,25 @@
 # Ege Cirakman
 
-PhD researcher at Georgia Tech working on scientific machine learning,
-computationally efficient generative models, inverse problems, and scalable 3D
-generation. My current work also explores GPU-aware ML systems and performance
-engineering across PyTorch, JAX, and heterogeneous accelerators.
+PhD researcher at Georgia Tech working on computationally efficient generative
+models, scientific machine learning, inverse problems, and scalable 3D diffusion.
+My research spans algorithmic efficiency in diffusion models, wavelet- and
+transform-domain generative methods, and GPU-aware implementations using
+PyTorch/CUDA, distributed training, JAX, and heterogeneous accelerators.
 
 Computational Science and Engineering PhD, SLIM Lab, advised by
 Prof. Felix J. Herrmann.
 
 ## Current focus
 
-- Efficient diffusion and generative models for scientific imaging and inverse
-  problems.
-- Scalable 3D generation with global/local, patch-based, and transform-domain
-  representations.
-- GPU and ML systems work on distributed training, reproducible benchmarking,
-  JAX, and ROCm/HIP.
+- Algorithmic and computational efficiency for diffusion and generative models,
+  including conditional wavelet diffusion, patch-based modeling, and
+  transform-domain preconditioning.
+- Scalable 3D diffusion and generative modeling for scientific volumes, with
+  emphasis on memory-efficient local/global representations and high-dimensional
+  scientific imaging.
+- GPU and AI accelerator systems, including PyTorch/CUDA, parallel and
+  distributed training, JAX, ROCm/HIP, performance benchmarking, and
+  accelerator-aware model design.
 
 ## Selected work
 
@@ -31,11 +35,10 @@ Prof. Felix J. Herrmann.
 
 ### [JAX / ROCm Systems Lab](https://github.com/egesamuray/jax-rocm-systems-lab)
 
-Small, reproducible JAX systems experiments. It currently has a CPU matmul
-benchmark harness with correctness checks, synchronized timing samples, and
-backend/runtime metadata. Accelerator work on ROCm, RCCL, and HIP/XLA FFI is
-ongoing, and no ROCm performance result is claimed before it is measured on AMD
-hardware.
+Reproducible experiments in JAX and accelerator-aware ML systems, with explicit
+correctness checks, compilation/runtime separation, and backend metadata.
+Current work is extending the harness toward ROCm, multi-GPU communication,
+HIP/XLA integration, and performance studies on heterogeneous accelerators.
 
 ### [Reproducible Research Workflows](https://github.com/egesamuray/controlled-ai-research-workflows)
 
@@ -46,8 +49,9 @@ integrity check; it does not include the private cluster execution backend.
 
 ## Research interests
 
-Scientific ML · generative modeling · diffusion models · inverse problems ·
-scientific imaging · scalable 3D · wavelet and curvelet methods · GPU systems
+Generative model efficiency · 3D diffusion · scientific ML · inverse problems ·
+scientific imaging · wavelet and curvelet methods · GPU computing · parallel
+computing · AI accelerators · ML systems
 
 ## Links
 
