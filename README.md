@@ -41,6 +41,13 @@ Prof. Felix J. Herrmann.
   ROCm 7.2 and AMD Clang 22 on gfx90a, gfx1030, and gfx1100, with runtime
   validation on an MI210.
   [PR #13146](https://github.com/ROCm/rocm-libraries/pull/13146)
+- **PyTorch.** Traced a disabled CUDA float64 gradcheck test for linear
+  `interpolate` to run-to-run nondeterminism in the atomic-add backward: the
+  differences were exactly 1 ULP, and the gradients matched CPU and numerical
+  references. Set the gradcheck nondeterminism tolerance on the OpInfo, as the
+  other interpolate modes already have. Reproduced and validated on an NVIDIA
+  L40S.
+  [PR #199901](https://github.com/pytorch/pytorch/pull/199901)
 
 ### [JAX / ROCm Systems Lab](https://github.com/egesamuray/jax-rocm-systems-lab)
 
